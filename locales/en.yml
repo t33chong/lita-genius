@@ -2,3 +2,6 @@ en:
   lita:
     handlers:
       genius:
+        help:
+          search_key: "genius SONG|LYRICS"
+          search_value: "Retrieve a matching song from (Rap) Genius."
