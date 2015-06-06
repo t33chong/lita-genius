@@ -1,8 +1,5 @@
 # lita-genius
 
-[![Build Status](https://travis-ci.org/tristaneuan/lita-genius.png?branch=master)](https://travis-ci.org/tristaneuan/lita-genius)
-[![Coverage Status](https://coveralls.io/repos/tristaneuan/lita-genius/badge.png)](https://coveralls.io/r/tristaneuan/lita-genius)
-
 **lita-genius** is a handler for [Lita](https://github.com/jimmycuadra/lita) that returns requested songs from Genius (formerly known as Rap Genius).
 
 ## Installation
