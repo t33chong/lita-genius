@@ -2,6 +2,10 @@ require "spec_helper"
 
 describe Lita::Handlers::Genius, lita_handler: true do
 
+  before do
+    registry.config.handlers.genius.access_token = ENV["GENIUS_ACCESS_TOKEN"]
+  end
+
   it { is_expected.to route_command("genius weeknd montreal").to(:search) }
 
   describe "#search" do
