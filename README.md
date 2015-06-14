@@ -13,6 +13,16 @@ Add lita-genius to your Lita instance's Gemfile:
 gem "lita-genius"
 ```
 
+## Configuration
+
+In order to use this plugin, you must obtain a [Genius client access token](http://genius.com/api-clients).
+
+``` ruby
+Lita.configure do |config|
+  config.handlers.genius.access_token = "YOUR ACCESS TOKEN GOES HERE"
+end
+```
+
 ## Usage
 
 Using the `genius` command will return the top Genius result for your query. Song titles and lyrics are both valid types of search strings.
